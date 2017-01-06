@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name='viewport' content='width=device-width, user-scalable=no, maximum-scale=1, initial-scale=1'/>
+  <title></title>
+  <style>
+    @font-face {
+      font-family: 'fontello';
+      src: url('./font/fontello.eot?67277035');
+      src: url('./font/fontello.eot?67277035#iefix') format('embedded-opentype'),
+           url('./font/fontello.woff?67277035') format('woff'),
+           url('./font/fontello.ttf?67277035') format('truetype'),
+           url('./font/fontello.svg?67277035#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+    .demo-icon {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-family: "fontello";
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      margin-left: .2em;
+      margin-right: .2em;
+      speak: none;
+      text-align: center;
+      text-transform: none;
+      width: 1em;
+    }
+    .text {
+        position: fixed;
+        top: 20px;
+        left: 70px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .share {
+        z-index: 90;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 30px;
+        left: 70px;
+        overflow: visible;
+        border: 1px #FFF solid;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+<div class="text">40px</div>
+<div class="share">
+  <nav class="menu">
+    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+    <label class="menu-open-button" for="menu-open">
+      <span class="hamburger hamburger-1"></span>
+      <span class="hamburger hamburger-2"></span>
+      <span class="hamburger hamburger-3"></span>
+    </label>
+    <a href="#" class="menu-item"> <i class="demo-icon icon-facebook-1">&#xf09a;</i> </a>
+    <a href="#" class="menu-item"> <i class="demo-icon icon-line">&#xe801;</i> </a>
+    <a href="#" class="menu-item"> <i class="demo-icon icon-wechat">&#xe804;</i> </a>
+  </nav>
+</div>
+</body>
+</html>
